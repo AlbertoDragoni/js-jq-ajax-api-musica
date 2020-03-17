@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fullwidth {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1E2D3B;
+}
+.container-cards {
+    margin: 0 auto;
+    width: 1080px;
+    height: 100vh;
+}
