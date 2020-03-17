@@ -5,11 +5,18 @@
 }
 .container-fullwidth {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #1E2D3B;
+}
+header {
+    margin: 0 auto;
+    height: 70px;
+    width: 100%;
+    background-color: #2e3a46;
 }
 .container-cards {
     margin: 0 auto;
-    width: 1080px;
+    width: 800px;
     height: 100vh;
+    background-color: red;
 }
