@@ -13,12 +13,15 @@
                 <img src="img/logo.png" alt="logo-spotify">
             </header>
             <div class="container-cards">
-                <div class="card">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/81r3FVfNG3L._SY355_.jpg" alt="Metallica-cover">
-                    <h3>...and justice for all</h3>
-                    <span class="autore">Metallica</span>
-                    <span class="anno">1988</span>
-                </div>
+
+                <script id="cards-template" type="text/x-handlebars-template">
+                    <div class="card">
+                        <img src="{{albumCover}}" alt="{{autore}}-cover">
+                        <h3>{{titoloDisco}}</h3>
+                        <span class="autore">{{autore}}</span>
+                        <span class="anno">{{anno}}</span>
+                    </div>
+                </script>
             </div>
         </div>
         <script src="js/main.js" charset="utf-8"></script>

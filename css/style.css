@@ -17,12 +17,14 @@ header {
 header img {
     height: 50px;
     margin-top: 10px;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 .container-cards {
+    display: flex;
+    flex-wrap: wrap;
     margin: 0 auto;
     width: 800px;
-    height: 100vh;
+    min-height: 100vh;
 }
 .card {
     width: 190px;
